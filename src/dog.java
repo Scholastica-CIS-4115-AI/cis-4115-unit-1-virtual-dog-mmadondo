@@ -4,8 +4,8 @@
  *    The dog has five possible States,  {HAPPY, SAD, HUNGRY, ANGRY, SLEEPY}
  *    The GUI provides four possible inputs or actions, {PET, WALK, FEED, IGNORE}
  *
- * @author      Original author: Tom Gibbons. Updated by: STUDENT NAME HERE
- * @version Spring 2017 version
+ * @author      Original author: Tom Gibbons. Updated by: Malvern Madondo
+ * @version Spring 2018 version
  */
 public class dog {
 
