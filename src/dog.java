@@ -6,6 +6,7 @@
  *
  * @author      Original author: Tom Gibbons. Updated by: Malvern Madondo
  * @version Spring 2018 version
+ * Attempting to commit and push from terminal
  */
 public class dog {
 
