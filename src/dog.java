@@ -245,7 +245,7 @@ public class dog {
         switch (currentAction) {
             
             case WALK:
-                setState(States.SAD);                          //the sleepy dog becomes sad if you walk it
+                setState(States.HUNGRY);                          //the sleepy dog becomes HUNGRY if you walk it
                 break;
             case FEED:
                 setState(States.HAPPY);                         //dog becomes happy if fed
