@@ -187,7 +187,7 @@ public class dog {
                 setState(States.HUNGRY);
                 break;
             case IGNORE:
-                setState(States.SAD);
+                setState(States.ANGRY);
                 break;
         }
     }
@@ -221,11 +221,16 @@ public class dog {
      */
     private void updateAngry(Actions currentAction) {
         switch (currentAction) {
-            case PET:
-            case WALK:
             case FEED:
+            case PET:
+                setState(States.HAPPY); 			//  the dog becomes happy if fed or pet
+                break;
+            case WALK:
+                setState(States.HUNGRY); 			//  the dog becomes hungry
+                break;
+            
             case IGNORE:
-                setState(States.ANGRY); 			// Currently the dog always stays angry, not matter what you do
+                setState(States.ANGRY); 			// the dog stays angry
                 break;
         }
     }
